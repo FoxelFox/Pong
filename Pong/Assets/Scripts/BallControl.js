@@ -46,11 +46,11 @@ function GoBall () {
 	if (randomNumber <= 0.5)
 	{
 		rigidbody2D.AddForce(new Vector2(ballSpeed,10));
-		Debug.Log("Shoot right");		
+		//Debug.Log("Shoot right");		
 	}
 	else 
 	{
 		rigidbody2D.AddForce(new Vector2(-ballSpeed,-10));
-		Debug.Log("Shoot left");
+		//Debug.Log("Shoot left");
 	}
 }
