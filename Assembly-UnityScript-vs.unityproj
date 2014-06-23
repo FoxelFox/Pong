@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallControl.js" />
+     <Compile Include="Assets\Scripts\Bot.js" />
      <Compile Include="Assets\Scripts\GameManager.js" />
      <Compile Include="Assets\Scripts\GameSetup.js" />
      <Compile Include="Assets\Scripts\PlayerControls.js" />
